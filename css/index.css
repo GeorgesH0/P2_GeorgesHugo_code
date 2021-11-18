@@ -1,0 +1,16 @@
+@font-face{
+    font-family: 'Raleway';
+    src: url(police/Raleway-VariableFont_wght.ttf) format('truetype');
+    src: url(police/Raleway-Italic-VariableFont_wght.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#bloc_page{
+    box-sizing: content-box 992px;
+}
+
+#menu{
+    display: flex;
+    flex-direction: row;
+}
