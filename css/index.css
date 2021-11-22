@@ -18,12 +18,14 @@ a:link{
     display: flex;
     justify-content: space-between;
 }
-.logo{
-    width: 20%;
-    max-width: 50px;
-    height: 10%;
-    max-height: 50px;
+#menu img{
+    width: 60%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
     margin-bottom: 2%;
+    margin-left: 10%;
+
 }
 nav{
     width: 10%;
@@ -32,10 +34,39 @@ nav{
     font-size: medium;
 }
 nav a:focus{
-    border-top:150px #0065FC;
+    border: 2px #0065FC solid;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
     color: #0065FC;
+    padding-top: 20%;
 }
 .hebergements{
     margin: 5%;
+}
+header h1{
+    font-size: x-large;
+}
+header h2{
+    font-size: medium;
+    font-style: normal;
+    color: gray;
+}
+#recherche{
+    width: 20%;
+    height: 0.5%;
+    border: 2px #F2F2F2 solid;
+    border-radius: 8%;
+}
+#recherche i{
+    width: 10%;
+    height: 30%;
+    margin-left: 1%;
+    background-color: #0065FC;
+}
+#recherche .ville_pays{
+    width: 60%;
+    height: 20%;
+    font-size: large;
 }
 

@@ -11,9 +11,7 @@
        <div id="bloc_page">
                <header>
                    <div id="menu">
-                       <div class="logo">
                            <img src="assets/images/logo/Booki.png" alt="Logo Booki" />
-                       </div>
                        <nav>
                                <a href="#hebergements" class="hebergements">Hébergements</a>
                                <a href="#activites" class="activites">Activités</a>
@@ -21,17 +19,15 @@
                     </div>
                            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>   
                            <h2>En plein centre ville ou en pleine nature</h2>
-                   <div id="barre_de_recherche">
-                       <form method="post" action="#">
+                       <form id="recherche" method="post" action="#">
                            <p>
                                 <i class="fas fa-map-marker-alt"></i>
-                                <input type="text" name="ville_pays" id="ville_pays" placeholder="Marseille, France" />
+                                <input type="text" name="ville_pays" class="ville_pays" placeholder="Marseille, France" />
                                 <input type="submit" value="Rechercher" />
                            </p>
-                       </form>
-                   </div>
+                        </form>
                    <div id="filtres">
-                       <h2>Filtres</h2>
+                       <h3>Filtres</h3>
                         <ul>
                            <div class="economie">
                                <i class="fas fa-money-bill-wave"></i>
