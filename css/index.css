@@ -49,26 +49,57 @@ header h1{
     font-size: x-large;
     margin-left: 0.5%;
 }
-header h2{
+header h3{
     font-size: medium;
     font-style: normal;
     color: none;
 }
 #recherche{
-    width: 20%;
-    height: 0.5%;
-    border: 2px #F2F2F2 solid;
-    border-radius: 8%;
+    display: flex;
+    width: 50%;
+    text-align: justify;
 }
 #recherche i{
-    width: 10%;
-    height: 30%;
-    margin-left: 1%;
-    background-color: #0065FC;
+    margin: none;
+    padding-top: 1.50%;
+    padding-left: 1.50%;
+    padding-right: 1.50%;
+    padding-bottom: 1.50%;
+    border: 2px  #F2F2F2 solid;
+    border-right: none;
+    border-top-left-radius: 35%;
+    border-bottom-left-radius: 35%;
+    background-color: #F2F2F2;
 }
 #recherche .ville_pays{
-    width: 60%;
-    height: 20%;
+    margin: none;
+    border-color: #F2F2F2;
     font-size: large;
+    color: black;
+}
+input::placeholder{
+    color: black;
+}
+#recherche .boutton{
+    margin: none;
+    border: 2px black;
+    padding-left: 1.50%;
+    padding-right: 1.50%;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+    font-size: large;
+    background-color: #0065FC;
+    color: blanchedalmond;
+}
+#filtres{
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+}
+ul{
+    display: flex;
+}
+.economie{
+    padding: 1.5%;
 }
 
