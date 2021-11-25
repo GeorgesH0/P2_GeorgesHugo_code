@@ -152,7 +152,10 @@ ul i{
 }
 #info i{
     color: #0065FC;
-    
+    border:2px black solid;
+    border-radius: 50%;
+    width: 15px;
+    height: 100%;
 }
 
 
