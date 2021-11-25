@@ -93,13 +93,39 @@ input::placeholder{
 }
 #filtres{
     display: flex;
-    flex-direction: row;
-    text-align: justify;
+    text-align: center;
+    width: 100%;
+    height: 30%;
 }
 ul{
     display: flex;
+    list-style-type: none;
+    padding-top: 0.5%;
+}
+li{
+    border: 2px black solid;
+    width: 100%;
+    margin-left: 2%;
 }
 .economie{
-    padding: 1.5%;
+    display: flex;
+    padding-right: 2%;
+    padding-left: 2%;
 }
+.familial{
+    display: flex;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+.romantique{
+    display: flex;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+.animaux_autorises{
+    display: flex;
+    white-space: nowrap;
+}
+
+
 
