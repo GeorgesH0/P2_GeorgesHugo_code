@@ -103,7 +103,6 @@ ul{
     display: flex;
     justify-content: center;
     list-style-type: none;
-    padding-top: 0.5%;
 }
 li{
     border: 2px #F2F2F2 solid;
@@ -160,13 +159,17 @@ ul i{
     display: flex;
     justify-content: space-between;
 }
+.premiere_section{
+    width: 70%;
+}
 .premiere_section section{
-    width: 80%;
+    width: 100%;
     height: 700px;
     border: 2px #F2F2F2 solid;
     border-radius: 1%;
     background-color: grey;
 }
+
 .premier_figure img{
     width: 100%;
     height: auto;
@@ -175,7 +178,7 @@ ul i{
     font-size: large;
     white-space: nowrap;
 }
-.premiere_section article{
+.premiere_section figure{
     width: 30%;
     height: 250px;
     border: 2px black solid;
@@ -183,8 +186,8 @@ ul i{
     margin-left: 5%;
     background-color: white;
 }
-.deuxieme_section section{
-    width: 5%;
+.deuxieme_section{
+    width: 25%;
     height: 700px;
     background-color: grey;
 }
