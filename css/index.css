@@ -162,6 +162,9 @@ ul i{
 .premiere_section{
     width: 70%;
 }
+.premiere_ligne{
+    display: flex;
+}
 .premiere_section section{
     width: 100%;
     height: 700px;
@@ -170,14 +173,14 @@ ul i{
     background-color: grey;
 }
 .premiere_section figure{
-    width: 25%;
+    width: 100%;
     height: 250px;
     border: 2px #F2F2F2 solid;
     border-radius: 22px;
     margin-left: 5%;
     background-color: white;
 }
-.premier_figure img{
+.premiere_figure img{
     width: 98%;
     height: 60%;
     border-top-left-radius: 14px;
@@ -185,14 +188,14 @@ ul i{
     margin-left: 1%;
     margin-top: 1%;
 }
-.premier_figure h2{
+.premiere_figure h2{
     font-size: larger;
     white-space: nowrap;
     margin: auto;
     padding-left: 5%;
     padding-top: 2.5%;
 }
-.premier_figure figcaption{
+.premiere_figure figcaption{
     padding-left: 5%;
     padding-top: 2.5%;
 }
@@ -204,6 +207,32 @@ ul i{
 }
 .etoile_grise_1{
     color: #F2F2F2;
+}
+
+.deuxieme_figure img{
+    width: 98%;
+    height: 60%;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+.deuxieme_figure h2{
+    font-size: larger;
+    white-space: nowrap;
+    margin: auto;
+    padding-left: 5%;
+    padding-top: 2.5%;
+}
+.deuxieme_figure figcaption{
+    padding-left: 5%;
+    padding-top: 2.5%;
+}
+.etoile_1{
+    display: flex;
+    padding-left: 5%;
+    padding-top: 2.5%;
+    color: #0065FC;
 }
 .deuxieme_section{
     width: 25%;
