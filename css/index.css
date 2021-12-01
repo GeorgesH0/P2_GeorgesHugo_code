@@ -159,11 +159,19 @@ ul i{
     display: flex;
     justify-content: space-between;
 }
+
 .premiere_section{
     width: 70%;
 }
+.premiere_section h1{
+    margin: auto;
+    padding-top: 4%;
+    padding-left: 4%;
+    padding-bottom: 1%;
+}
 .premiere_ligne{
     display: flex;
+    justify-content: space-around;
 }
 .premiere_section section{
     width: 100%;
@@ -173,11 +181,11 @@ ul i{
     background-color: grey;
 }
 .premiere_section figure{
-    width: 100%;
+    width: 130%;
     height: 250px;
     border: 2px #F2F2F2 solid;
     border-radius: 22px;
-    margin-left: 5%;
+    margin-left: -15%;
     background-color: white;
 }
 .premiere_figure img{
@@ -228,11 +236,24 @@ ul i{
     padding-left: 5%;
     padding-top: 2.5%;
 }
-.etoile_1{
-    display: flex;
+.troisieme_figure img{
+    width: 98%;
+    height: 60%;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+.troisieme_figure h2{
+    font-size: larger;
+    white-space: nowrap;
+    margin: auto;
     padding-left: 5%;
     padding-top: 2.5%;
-    color: #0065FC;
+}
+.troisieme_figure figcaption{
+    padding-left: 5%;
+    padding-top: 2.5%;
 }
 .deuxieme_section{
     width: 25%;
