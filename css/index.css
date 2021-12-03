@@ -255,6 +255,76 @@ ul i{
     padding-left: 5%;
     padding-top: 2.5%;
 }
+.deuxieme_ligne{
+    display: flex;
+    justify-content: space-around;
+}
+.quatrieme_figure{
+    width: 20.5%;
+}
+.quatrieme_figure img{
+    width: 98%;
+    height: 60%;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+.quatrieme_figure h2{
+    font-size: larger;
+    white-space: nowrap;
+    margin: auto;
+    padding-left: 5%;
+    padding-top: 2.5%;
+}
+.quatrieme_figure figcaption{
+    padding-left: 5%;
+    padding-top: 2.5%;
+}
+.cinquieme_figure{
+    width: 20.5%;
+}
+.cinquieme_figure img{
+    width: 98%;
+    height: 60%;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+.cinquieme_figure h2{
+    font-size: larger;
+    white-space: nowrap;
+    margin: auto;
+    padding-left: 5%;
+    padding-top: 2.5%;
+}
+.cinquieme_figure figcaption{
+    padding-left: 5%;
+    padding-top: 2.5%;
+}
+.sixieme_figure{
+    width: 20.5%;
+}
+.sixieme_figure img{
+    width: 98%;
+    height: 60%;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+.sixieme_figure h2{
+    font-size: larger;
+    white-space: nowrap;
+    margin: auto;
+    padding-left: 5%;
+    padding-top: 2.5%;
+}
+.sixieme_figure figcaption{
+    padding-left: 5%;
+    padding-top: 2.5%;
+}
 .deuxieme_section{
     width: 25%;
     height: 700px;
