@@ -215,13 +215,13 @@ ul i{
     padding-left: 5%;
     padding-top: 2.5%;
 }
-.etoile_1{
+.etoile{
     display: flex;
     padding-left: 5%;
     padding-top: 2.5%;
     color: #0065FC;
 }
-.etoile_grise_1{
+.etoile_grise{
     color: #F2F2F2;
 }
 
@@ -358,21 +358,34 @@ ul i{
     margin-top: 10%;
     margin-right: 8%;
 }
-.deuxieme_section figure{
-    width: 90%;
-    height: 250px;
+.deuxieme_section article{
+    width: 82%;
+    height: 180px;
+    margin-left: 9%;
     border: 2px #F2F2F2 solid;
     border-radius: 22px;
-    background-color: gray;
+    background-color: white;
 }
 .septieme_figure img{
-    position: absolute;
-    width: 11%;
-    height: 23.5%;
+    float: left;
+    width: 40%;
+    height: 93.5%;
     border: 2px #F2F2F2 solid;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    margin-top: 0.35%;
-    margin-left: 0.2%;
+    margin-top: 1%;
+    margin-left: 1%;
 }
-
+.septieme_figure h2{
+    font-size: large;
+    margin-left: 47%;
+}
+.septieme_figure p{
+    margin-left: 47%;
+}
+.etoile_1{
+    display: flex;
+    margin-top: 12%;
+    margin-left: 47%;
+    color: #0065FC;
+}
