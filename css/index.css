@@ -389,6 +389,9 @@ ul i{
     margin-left: 47%;
     color: #0065FC;
 }
+.article_2{
+    margin-top: 10%;
+}
 .article_2 img{
     float: left;
     width: 40%;
@@ -405,6 +408,9 @@ ul i{
 }
 .article_2 p{
     margin-left: 47%;
+}
+.article_3{
+    margin-top: 10%;
 }
 .article_3 img{
     float: left;
