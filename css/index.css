@@ -366,7 +366,7 @@ ul i{
     border-radius: 22px;
     background-color: white;
 }
-.septieme_figure img{
+.article_1 img{
     float: left;
     width: 40%;
     height: 93.5%;
@@ -376,11 +376,11 @@ ul i{
     margin-top: 1%;
     margin-left: 1%;
 }
-.septieme_figure h2{
+.article_1 h2{
     font-size: large;
     margin-left: 47%;
 }
-.septieme_figure p{
+.article_1 p{
     margin-left: 47%;
 }
 .etoile_1{
@@ -388,4 +388,38 @@ ul i{
     margin-top: 12%;
     margin-left: 47%;
     color: #0065FC;
+}
+.article_2 img{
+    float: left;
+    width: 40%;
+    height: 93.5%;
+    border: 2px #F2F2F2 solid;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+.article_2 h2{
+    font-size: large;
+    margin-left: 47%;
+}
+.article_2 p{
+    margin-left: 47%;
+}
+.article_3 img{
+    float: left;
+    width: 40%;
+    height: 93.5%;
+    border: 2px #F2F2F2 solid;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+.article_3 h2{
+    font-size: large;
+    margin-left: 47%;
+}
+.article_3 p{
+    margin-left: 47%;
 }
