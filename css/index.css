@@ -7,7 +7,8 @@
 }
 
 #bloc_page{
-    box-sizing: content-box 100%;
+    height: 992px;
+    width: 1280px;
     font-family: 'Raleway', sans-serif;
     margin: auto;
 }
@@ -166,184 +167,233 @@ ul i{
 #main{
     display: flex;
     justify-content: space-between;
+    width: 100%;
+    height: 74%;
 }
 
 .premiere_section{
-    width: 70%;
+    width: 65%;
+    height: 95%;
+    border: 2px #F2F2F2 solid;
+    border-radius: 22px;
+    background-color: #F2F2F2; 
+}
+.premiere_section section{
+    width: 100%;
+    height: 100%;
+}
+.premiere_section figure{
+    margin: auto;
+    width: 100%;
+    height: 100%;
 }
 .premiere_section h1{
     margin: auto;
+    font-size: 130%;
     padding-top: 4%;
     padding-left: 4%;
-    padding-bottom: 1%;
+    padding-bottom: 2%;
 }
 .premiere_ligne{
     display: flex;
     justify-content: space-around;
-}
-.premiere_section section{
+    height: 36%;
     width: 100%;
-    height: 800px;
-    border: 2px #F2F2F2 solid;
-    border-radius: 1%;
-    background-color: #F2F2F2;
 }
-.premiere_section figure{
-    width: 130%;
-    height: 250px;
+.premiere_figure{
+    width: 30%;
+    height: 95%;
     border: 2px #F2F2F2 solid;
     border-radius: 22px;
-    margin-left: -15%;
     background-color: white;
 }
 .premiere_figure img{
-    width: 98%;
+    width: 96%;
     height: 60%;
     border-top-left-radius: 14px;
     border-top-right-radius: 14px;
-    margin-left: 1%;
-    margin-top: 1%;
+    margin-left: 2%;
+    margin-top: 2%;
 }
 .premiere_figure h2{
-    font-size: larger;
+    font-size: 100%;
     white-space: nowrap;
     margin: auto;
     padding-left: 5%;
-    padding-top: 2.5%;
+    padding-top: 3%;
 }
 .premiere_figure figcaption{
     padding-left: 5%;
-    padding-top: 2.5%;
+    padding-top: 3%;
+    font-size: 100%;
 }
 .etoile{
     display: flex;
+    font-size: 85%;
     padding-left: 5%;
-    padding-top: 2.5%;
+    padding-top: 4%;
     color: #0065FC;
 }
 .etoile_grise{
     color: #F2F2F2;
 }
-
+.deuxieme_figure{
+    width: 30%;
+    height: 95%;
+    border: 2px #F2F2F2 solid;
+    border-radius: 22px;
+    background-color: white;
+}
 .deuxieme_figure img{
-    width: 98%;
+    width: 96%;
     height: 60%;
     border-top-left-radius: 14px;
     border-top-right-radius: 14px;
-    margin-left: 1%;
-    margin-top: 1%;
+    margin-left: 2%;
+    margin-top: 2%;
 }
 .deuxieme_figure h2{
-    font-size: larger;
+    font-size: 100%;
     white-space: nowrap;
     margin: auto;
     padding-left: 5%;
-    padding-top: 2.5%;
+    padding-top: 3%;
 }
 .deuxieme_figure figcaption{
     padding-left: 5%;
-    padding-top: 2.5%;
+    padding-top: 3%;
+    font-size: 100%;
+}
+.troisieme_figure{
+    width: 30%;
+    height: 95%;
+    border: 2px #F2F2F2 solid;
+    border-radius: 22px;
+    background-color: white;
 }
 .troisieme_figure img{
-    width: 98%;
+    width: 96%;
     height: 60%;
     border-top-left-radius: 14px;
     border-top-right-radius: 14px;
-    margin-left: 1%;
-    margin-top: 1%;
+    margin-left: 2%;
+    margin-top: 2%;
 }
 .troisieme_figure h2{
-    font-size: larger;
+    font-size: 100%;
     white-space: nowrap;
     margin: auto;
     padding-left: 5%;
-    padding-top: 2.5%;
+    padding-top: 3%;
 }
 .troisieme_figure figcaption{
     padding-left: 5%;
-    padding-top: 2.5%;
+    padding-top: 3%;
+    font-size: 100%;
 }
 .deuxieme_ligne{
     display: flex;
     justify-content: space-around;
+    width: 100%;
+    height: 36%;
+    margin-top: 2%;
 }
 .quatrieme_figure{
-    width: 20.5%;
+    width: 30%;
+    height: 95%;
+    border: 2px #F2F2F2 solid;
+    border-radius: 22px;
+    background-color: white;
 }
 .quatrieme_figure img{
-    width: 98%;
+    width: 96%;
     height: 60%;
     border-top-left-radius: 14px;
     border-top-right-radius: 14px;
-    margin-left: 1%;
-    margin-top: 1%;
+    margin-left: 2%;
+    margin-top: 2%;
 }
 .quatrieme_figure h2{
-    font-size: larger;
+    font-size: 100%;
     white-space: nowrap;
     margin: auto;
     padding-left: 5%;
-    padding-top: 2.5%;
+    padding-top: 3%;
 }
 .quatrieme_figure figcaption{
     padding-left: 5%;
-    padding-top: 2.5%;
+    padding-top: 3%;
+    font-size: 100%;
 }
 .cinquieme_figure{
-    width: 20.5%;
+    width: 30%;
+    height: 95%;
+    border: 2px #F2F2F2 solid;
+    border-radius: 22px;
+    background-color: white;
 }
 .cinquieme_figure img{
-    width: 98%;
+    width: 96%;
     height: 60%;
     border-top-left-radius: 14px;
     border-top-right-radius: 14px;
-    margin-left: 1%;
-    margin-top: 1%;
+    margin-left: 2%;
+    margin-top: 2%;
 }
 .cinquieme_figure h2{
-    font-size: larger;
+    font-size: 100%;
     white-space: nowrap;
     margin: auto;
     padding-left: 5%;
-    padding-top: 2.5%;
+    padding-top: 3%;
 }
 .cinquieme_figure figcaption{
     padding-left: 5%;
-    padding-top: 2.5%;
+    padding-top: 3%;
+    font-size: 100%;
 }
 .sixieme_figure{
-    width: 20.5%;
+    width: 30%;
+    height: 95%;
+    border: 2px #F2F2F2 solid;
+    border-radius: 22px;
+    background-color: white;
 }
 .sixieme_figure img{
-    width: 98%;
+    width: 96%;
     height: 60%;
     border-top-left-radius: 14px;
     border-top-right-radius: 14px;
-    margin-left: 1%;
-    margin-top: 1%;
+    margin-left: 2%;
+    margin-top: 2%;
 }
 .sixieme_figure h2{
-    font-size: larger;
+    font-size: 100%;
     white-space: nowrap;
     margin: auto;
     padding-left: 5%;
-    padding-top: 2.5%;
+    padding-top: 3%;
 }
 .sixieme_figure figcaption{
     padding-left: 5%;
-    padding-top: 2.5%;
+    padding-top: 3%;
+    font-size: 100%;
 }
 .premiere_section h3{
     margin: auto;
-    padding-left: 3%;
-    padding-top: 3.5%;
+    padding-left: 5%;
+    padding-top: 5%;
 }
 .deuxieme_section{
-    width: 25%;
-    height: 800px;
+    width: 32%;
+    height: 95%;
     border: 2px #F2F2F2 solid;
-    border-radius: 1%;
+    border-radius: 25px;
     background-color: #F2F2F2;
+}
+.deuxieme_section section{
+    width: 100%;
+    height: 100%;
 }
 .titre_deuxieme_section{
     display: flex;
@@ -351,7 +401,8 @@ ul i{
 }
 .deuxieme_section h1{
     margin-top: 10%;
-    margin-left: 10%;
+    margin-left: 9%;
+    font-size: 140%;
 }
 .titre_deuxieme_section i{
     font-size: 155%;
@@ -548,12 +599,15 @@ ul i{
 }
 .eglise{
     width: 100%;
-    height: 150px;
+    height: 230px;
     background-color: white;
 }
 .eglise img{
     width: 100%;
     height: 87%;
+    border: 0.5px white solid;
+    border-top-left-radius: 27px;
+    border-top-right-radius: 27px;
 }
 .eglise h2{
     margin-top: -2%;
@@ -568,12 +622,16 @@ ul i{
 }
 .longchamp{
     width: 100%;
-    height: 150px;
+    height: 230px;
+    margin-bottom: 11%;
     background-color: white;
 }
 .longchamp img{
     width: 100%;
     height: 87%;
+    border: 0.5px white solid;
+    border-top-left-radius: 27px;
+    border-top-right-radius: 27px;
 }
 .longchamp h2{
     margin-top: -2%;
