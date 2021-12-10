@@ -399,6 +399,15 @@ ul i{
     display: flex;
     justify-content: space-between;
 }
+.colonne{
+    width: 100%;
+    height: 88%;
+}
+.colonne article{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
 .deuxieme_section h1{
     margin-top: 10%;
     margin-left: 9%;
@@ -409,10 +418,10 @@ ul i{
     margin-top: 10%;
     margin-right: 8%;
 }
-.deuxieme_section article{
-    width: 82%;
-    height: 180px;
-    margin-left: 9%;
+.article_1{
+    width: 85%;
+    height: 27%;
+    margin-left: 7%;
     border: 2px #F2F2F2 solid;
     border-radius: 22px;
     background-color: white;
@@ -424,7 +433,7 @@ ul i{
     border: 2px #F2F2F2 solid;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    margin-top: 1%;
+    margin-top: -3.5%;
     margin-left: 1%;
 }
 .article_1 h2{
@@ -436,12 +445,19 @@ ul i{
 }
 .etoile_1{
     display: flex;
+    font-size: 85%;
     margin-top: 12%;
     margin-left: 47%;
     color: #0065FC;
 }
 .article_2{
-    margin-top: 10%;
+    margin-top: 8%;
+    width: 85%;
+    height: 27%;
+    margin-left: 7%;
+    border: 2px #F2F2F2 solid;
+    border-radius: 22px;
+    background-color: white;
 }
 .article_2 img{
     float: left;
@@ -450,7 +466,7 @@ ul i{
     border: 2px #F2F2F2 solid;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    margin-top: 1%;
+    margin-top: -3.5%;
     margin-left: 1%;
 }
 .article_2 h2{
@@ -461,7 +477,13 @@ ul i{
     margin-left: 47%;
 }
 .article_3{
-    margin-top: 10%;
+    margin-top: 8%;
+    width: 85%;
+    height: 27%;
+    margin-left: 7%;
+    border: 2px #F2F2F2 solid;
+    border-radius: 22px;
+    background-color: white;
 }
 .article_3 img{
     float: left;
@@ -470,7 +492,7 @@ ul i{
     border: 2px #F2F2F2 solid;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    margin-top: 1%;
+    margin-top: -3.5%;
     margin-left: 1%;
 }
 .article_3 h2{
