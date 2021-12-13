@@ -73,12 +73,12 @@ header h3{
 }
 form{
     width: 80%;
-    height: 14%;
+    height: 16%;
 }
 #recherche i{
     width: 2%;
-    height: 41%;
-    padding-top: 1%;
+    height: 38%;
+    padding-top: 1.5%;
     padding-left: 2%;
     padding-right: 1%;
     padding-bottom: 1%;
@@ -95,7 +95,7 @@ form{
     font-size: 118%;
     border-left: none;
     border-right: none;
-    color: black;
+    border-color: #F2F2F2;
     height: 79%;
 }
 input::placeholder{
@@ -111,7 +111,7 @@ input::placeholder{
     border-bottom-right-radius: 15px;
     font-size: large;
     background-color: #0065FC;
-    color: blanchedalmond;
+    color: white;
 }
 #filtres{
     display: flex;
@@ -141,10 +141,9 @@ li{
     font-weight: bold;
 }
 li:hover{
-    background-color: grey;
+    background-color: #0065FC;
 }
 ul i{
-    border: 2px #F2F2F2 solid;
     border-radius: 50%;
     width: 70px;
     height: 75%;
