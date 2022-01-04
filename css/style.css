@@ -187,7 +187,7 @@ li a:hover{
     background-color: #DEEBFF;
     color: #0065FC;
     padding-top: 11%;
-    padding-right: 11%;
+    padding-right: 12%;
     padding-left: 11%;
     padding-bottom: 9%;
     font-size: 115%;
@@ -299,7 +299,7 @@ li a:hover{
 .premiere_section section{
     width: 100%;
 }
-.premiere_section figure{
+.premiere_section article{
     margin: auto;
     width: 100%;
 }
@@ -314,6 +314,9 @@ li a:hover{
     display: flex;
     justify-content: space-around;
     width: 100%;
+}
+.prix{
+    font-weight: bold;
 }
 .premiere_figure{
     width: 30%;
@@ -336,10 +339,11 @@ li a:hover{
     padding-left: 5%;
     padding-top: 3%;
 }
-.premiere_figure figcaption{
+.premiere_figure p{
     padding-left: 5%;
     padding-top: 3%;
     font-size: 100%;
+    margin: auto;
 }
 .etoile{
     display: flex;
@@ -373,10 +377,11 @@ li a:hover{
     padding-left: 5%;
     padding-top: 3%;
 }
-.deuxieme_figure figcaption{
+.deuxieme_figure p{
     padding-left: 5%;
     padding-top: 3%;
     font-size: 100%;
+    margin: auto;
 }
 .troisieme_figure{
     width: 30%;
@@ -399,10 +404,11 @@ li a:hover{
     padding-left: 5%;
     padding-top: 3%;
 }
-.troisieme_figure figcaption{
+.troisieme_figure p{
     padding-left: 5%;
     padding-top: 3%;
     font-size: 100%;
+    margin: auto;
 }
 .deuxieme_ligne{
     display: flex;
@@ -431,10 +437,11 @@ li a:hover{
     padding-left: 5%;
     padding-top: 3%;
 }
-.quatrieme_figure figcaption{
+.quatrieme_figure p{
     padding-left: 5%;
     padding-top: 3%;
     font-size: 100%;
+    margin: auto;
 }
 .cinquieme_figure{
     width: 30%;
@@ -457,10 +464,11 @@ li a:hover{
     padding-left: 5%;
     padding-top: 3%;
 }
-.cinquieme_figure figcaption{
+.cinquieme_figure p{
     padding-left: 5%;
     padding-top: 3%;
     font-size: 100%;
+    margin: auto;
 }
 .sixieme_figure{
     width: 30%;
@@ -483,10 +491,11 @@ li a:hover{
     padding-left: 5%;
     padding-top: 3%;
 }
-.sixieme_figure figcaption{
+.sixieme_figure p{
     padding-left: 5%;
     padding-top: 3%;
     font-size: 100%;
+    margin: auto;
 }
 .premiere_section h3{
     margin: auto;
@@ -915,7 +924,7 @@ footer h3{
     .premiere_figure h2{
         font-size: 74%;
     }
-    .premiere_figure figcaption{
+    .premiere_figure p{
         font-size: 75%;
         padding-top: 5%;
     }
@@ -926,14 +935,14 @@ footer h3{
     .deuxieme_figure h2{
         font-size: 74%;
     }
-    .deuxieme_figure figcaption{
+    .deuxieme_figure p{
         font-size: 75%;
         padding-top: 5%;
     }
     .troisieme_figure h2{
         font-size: 74%;
     }
-    .troisieme_figure figcaption{
+    .troisieme_figure p{
         font-size: 75%;
         padding-top: 5%;
     }
@@ -943,21 +952,21 @@ footer h3{
     .quatrieme_figure h2{
         font-size: 74%;
     }
-    .quatrieme_figure figcaption{
+    .quatrieme_figure p{
         font-size: 75%;
         padding-top: 5%;
     }
     .cinquieme_figure h2{
         font-size: 74%;
     }
-    .cinquieme_figure figcaption{
+    .cinquieme_figure p{
         font-size: 75%;
         padding-top: 5%;
     }
     .sixieme_figure h2{
         font-size: 74%;
     }
-    .sixieme_figure figcaption{
+    .sixieme_figure p{
         font-size: 75%;
         padding-top: 5%;
     }
@@ -1174,7 +1183,7 @@ footer h3{
         margin-right: 0%;
         padding-top: 0%;
         text-align: initial;
-        font-size: 190%;
+        font-size: 150%;
     }
     ul{
         width: 100%;
@@ -1184,86 +1193,86 @@ footer h3{
         display: flex;
     }
     .economie{
-        width: 30%;
+        width: 39%;
         padding-right: 4%;
-        margin-left: 6%;
-        border: 4px #F2F2F2 solid;
+        margin-left: 5%;
+        border: 2px #F2F2F2 solid;
     }
     .economie i{
-        padding-right: 10%;
+        padding-right: 11%;
         padding-top: 10%;
-        padding-left: 9%;
-        padding-bottom: 10%;
+        padding-left: 8%;
+        padding-bottom: 7%;
         width: 12%;
-        font-size: 190%;
+        font-size: 130%;
     }
     .economie a{
-        font-size: 180%;
-        padding-top: 10%;
+        font-size: 120%;
+        padding-top: 9%;
         padding-left: 7%;
-        padding-right: 13%;
+        padding-right: 9%;
     }
     .familial{
-        width: 25%;
-        margin-left: 6%;
+        width: 39%;
+        margin-left: 3%;
         padding-right: 0%;
-        border: 4px #F2F2F2 solid;
+        border: 2px #F2F2F2 solid;
     }
     .familial i{
-        padding-right: 13%;
-        padding-top: 12%;
-        padding-left: 11%;
-        padding-bottom: 10%;
+        padding-right: 10%;
+        padding-top: 9%;
+        padding-left: 9%;
+        padding-bottom: 8%;
         width: 12%;
-        font-size: 190%;
+        font-size: 150%;
     }
     .familial a{
-        font-size: 180%;
-        padding-top: 10%;
+        font-size: 120%;
+        padding-top: 9%;
         padding-left: 7%;
         padding-right: 13%;
     }
     .romantique{
         width: 30%;
-        padding-right: 5%;
-        margin-left: 6%;
+        padding-right: 11%;
+        margin-left: 5%;
         margin-top: 3%;
-        border: 4px #F2F2F2 solid;
+        border: 2px #F2F2F2 solid;
     }
     .romantique i{
-        padding-right: 10%;
-        padding-top: 10%;
-        padding-left: 9%;
-        padding-bottom: 10%;
+        padding-right: 16%;
+        padding-top: 11%;
+        padding-left: 11%;
+        padding-bottom: 11%;
         width: 12%;
-        font-size: 190%;
+        font-size: 140%;
     }
     .romantique a{
-        font-size: 180%;
+        font-size: 120%;
         padding-top: 10%;
         padding-left: 7%;
         padding-right: 13%;
     }
     .animaux_autorises{
         width: 30%;
-        padding-right: 11%;
-        margin-left: 6%;
+        padding-right: 23%;
+        margin-left: 5%;
         margin-top: 3%;
-        border: 4px #F2F2F2 solid;
+        border: 2px #F2F2F2 solid;
     }
     .animaux_autorises i{
-        padding-right: 10%;
-        padding-top: 10%;
+        padding-right: 17%;
+        padding-top: 11%;
         padding-left: 9%;
-        padding-bottom: 10%;
+        padding-bottom: 12%;
         width: 12%;
-        font-size: 190%;
+        font-size: 140%;
     }
     .animaux_autorises a{
-        font-size: 180%;
-        padding-top: 10%;
+        font-size: 120%;
+        padding-top: 11%;
         padding-left: 7%;
-        padding-right: 13%;
+        padding-right: 31%;
     }
     #info{
         width: 85%;
@@ -1273,17 +1282,17 @@ footer h3{
     }
     #info i{
         width: 3%;
-        padding-bottom: 1%;
+        padding-bottom: 1.5%;
         padding-top: 1%;
-        padding-left: 2%;
+        padding-left: 2.5%;
         padding-right: 1%;
         margin-left: 3.5%;
-        margin-bottom: 7%;
-        font-size: 130%;
+        margin-bottom: 9%;
+        font-size: 90%;
     }
     #info p{
-        font-size: 170%;
-        padding-right: 21%;
+        font-size: 110%;
+        padding-right: 0%;
     }
     #main{
         flex-direction: column-reverse;
@@ -1390,7 +1399,7 @@ footer h3{
         font-size: 200%;
         padding-top: 1%;
     }
-    .premiere_figure figcaption{
+    .premiere_figure p{
         padding-top: 2%;
         font-size: 150%;
     }
@@ -1416,7 +1425,7 @@ footer h3{
         font-size: 200%;
         padding-top: 1%;
     }
-    .deuxieme_figure figcaption{
+    .deuxieme_figure p{
         padding-top: 2%;
         font-size: 150%;
     }
@@ -1435,7 +1444,7 @@ footer h3{
         font-size: 200%;
         padding-top: 1%;
     }
-    .troisieme_figure figcaption{
+    .troisieme_figure p{
         padding-top: 2%;
         font-size: 150%;
     }
@@ -1457,7 +1466,7 @@ footer h3{
         font-size: 200%;
         padding-top: 1%;
     }
-    .quatrieme_figure figcaption{
+    .quatrieme_figure p{
         padding-top: 2%;
         font-size: 150%;
     }
@@ -1476,7 +1485,7 @@ footer h3{
         font-size: 200%;
         padding-top: 1%;
     }
-    .cinquieme_figure figcaption{
+    .cinquieme_figure p{
         padding-top: 2%;
         font-size: 150%;
     }
@@ -1495,7 +1504,7 @@ footer h3{
         font-size: 200%;
         padding-top: 1%;
     }
-    .sixieme_figure figcaption{
+    .sixieme_figure p{
         padding-top: 2%;
         font-size: 150%;
     }
