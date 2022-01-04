@@ -133,7 +133,7 @@ li a:hover{
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
 }
-.eco_fami{
+.economie, .familial{
     display: contents;
 }
 .economie{
@@ -1189,20 +1189,20 @@ footer h3{
         width: 100%;
         display: block;
     }
-    .eco_fami{
-        display: flex;
+    .economie, .familial{
+        display: inline-flex;
     }
     .economie{
         width: 39%;
         padding-right: 4%;
-        margin-left: 5%;
+        margin-left: -2%;
         border: 2px #F2F2F2 solid;
     }
     .economie i{
         padding-right: 11%;
         padding-top: 10%;
         padding-left: 8%;
-        padding-bottom: 7%;
+        padding-bottom: 9%;
         width: 12%;
         font-size: 130%;
     }
@@ -1303,13 +1303,13 @@ footer h3{
         border-radius: initial;
     }
     .titre_deuxieme_section h1{
-        font-size: 280%;
+        font-size: 160%;
         margin-top: 10%;
         margin-bottom: 3%;
     }
     .titre_deuxieme_section i{
-        font-size: 300%;
-        margin-top: 11%;
+        font-size: 160%;
+        margin-top: 10%;
     }
     .colonne{
         margin-top: 3%;
@@ -1319,20 +1319,20 @@ footer h3{
         border-radius: 30px;
     }
     .article_1 img{
-        height: 272px;
+        height: 180px;
         border-top-left-radius: 30px;
         border-bottom-left-radius: 30px;
-        margin-top: -2%;
+        margin-top: -4%;
         margin-left: 1.5%;
     }
     .article_1 h2{
-        font-size: 200%;
+        font-size: 130%;
     }
     .article_1 p{
-        font-size: 150%;
+        font-size: 110%;
     }
     .etoile_1{
-        font-size: 140%;
+        font-size: 100%;
         width: 20%;
         justify-content: space-evenly;
     }
@@ -1342,35 +1342,36 @@ footer h3{
         border-radius: 30px;
     }
     .article_2 img{
-        height: 272px;
+        height: 180px;
         border-top-left-radius: 30px;
         border-bottom-left-radius: 30px;
-        margin-top: -2%;
+        margin-top: -4%;
         margin-left: 1.5%;
     }
     .article_2 h2{
-        font-size: 200%;
+        font-size: 130%;
     }
     .article_2 p{
-        font-size: 150%;
+        font-size: 110%;
     }
     .article_3{
         width: 80%;
         margin-top: 2%;
+        margin-bottom: 6%;
         border-radius: 30px;
     }
     .article_3 img{
-        height: 272px;
+        height: 180px;
         border-top-left-radius: 30px;
         border-bottom-left-radius: 30px;
-        margin-top: -2%;
+        margin-top: -4%;
         margin-left: 1.5%;
     }
     .article_3 h2{
-        font-size: 200%;
+        font-size: 130%;
     }
     .article_3 p{
-        font-size: 150%;
+        font-size: 110%;
     }
     .premiere_section{
         width: 95%;
@@ -1379,8 +1380,9 @@ footer h3{
         background-color: initial;
     }
     .premiere_section h1{
-        font-size: 280%;
+        font-size: 160%;
         padding-bottom: 4%;
+        margin-left: 5%;
     }
     .premiere_ligne{
         display: block;
@@ -1391,23 +1393,23 @@ footer h3{
     }
     .premiere_figure img{
         width: 98%;
-        height: 250px;
+        height: 150px;
         margin-left: 1%;
         margin-top: 1%;
     }
     .premiere_figure h2{
-        font-size: 200%;
+        font-size: 130%;
         padding-top: 1%;
     }
     .premiere_figure p{
         padding-top: 2%;
-        font-size: 150%;
+        font-size: 110%;
     }
     .etoile{
         width: 20%;
         justify-content: space-evenly;
-        font-size: 140%;
-        padding-left: 5%;
+        font-size: 100%;
+        padding-left: 7%;
         padding-top: 2%;
     }
     .deuxieme_figure{
@@ -1417,17 +1419,17 @@ footer h3{
     }
     .deuxieme_figure img{
         width: 98%;
-        height: 250px;
+        height: 150px;
         margin-left: 1%;
         margin-top: 1%;
     }
     .deuxieme_figure h2{
-        font-size: 200%;
+        font-size: 130%;
         padding-top: 1%;
     }
     .deuxieme_figure p{
         padding-top: 2%;
-        font-size: 150%;
+        font-size: 110%;
     }
     .troisieme_figure{
         width: 80%;
@@ -1436,17 +1438,17 @@ footer h3{
     }
     .troisieme_figure img{
         width: 98%;
-        height: 250px;
+        height: 150px;
         margin-left: 1%;
         margin-top: 1%;
     }
     .troisieme_figure h2{
-        font-size: 200%;
+        font-size: 130%;
         padding-top: 1%;
     }
     .troisieme_figure p{
         padding-top: 2%;
-        font-size: 150%;
+        font-size: 110%;
     }
     .deuxieme_ligne{
         display: block;
@@ -1458,17 +1460,17 @@ footer h3{
     }
     .quatrieme_figure img{
         width: 98%;
-        height: 250px;
+        height: 150px;
         margin-left: 1%;
         margin-top: 1%;
     }
     .quatrieme_figure h2{
-        font-size: 200%;
+        font-size: 130%;
         padding-top: 1%;
     }
     .quatrieme_figure p{
         padding-top: 2%;
-        font-size: 150%;
+        font-size: 110%;
     }
     .cinquieme_figure{
         width: 80%;
@@ -1477,17 +1479,17 @@ footer h3{
     }
     .cinquieme_figure img{
         width: 98%;
-        height: 250px;
+        height: 150px;
         margin-left: 1%;
         margin-top: 1%;
     }
     .cinquieme_figure h2{
-        font-size: 200%;
+        font-size: 130%;
         padding-top: 1%;
     }
     .cinquieme_figure p{
         padding-top: 2%;
-        font-size: 150%;
+        font-size: 110%;
     }
     .sixieme_figure{
         width: 80%;
@@ -1496,20 +1498,20 @@ footer h3{
     }
     .sixieme_figure img{
         width: 98%;
-        height: 250px;
+        height: 150px;
         margin-left: 1%;
         margin-top: 1%;
     }
     .sixieme_figure h2{
-        font-size: 200%;
+        font-size: 130%;
         padding-top: 1%;
     }
     .sixieme_figure p{
         padding-top: 2%;
-        font-size: 150%;
+        font-size: 110%;
     }
     .premiere_section h3{
-        font-size: 200%;
+        font-size: 140%;
         padding-left: 7%;
         padding-top: 6%;
         padding-bottom: 7%;
@@ -1518,7 +1520,7 @@ footer h3{
         width: 95%;
     }
     .troisieme_section h1{
-        font-size: 280%;
+        font-size: 170%;
         margin-left: 7%;
         margin-bottom: 6%;
     }
@@ -1533,10 +1535,10 @@ footer h3{
         margin-left: 7%;
     }
     .vieux_port img{
-        height: 300px;
+        height: 150px;
     }
     .vieux_port h2{
-        font-size: 200%;
+        font-size: 130%;
         padding-top: 7%;
         padding-bottom: 5%;
     }
@@ -1548,10 +1550,10 @@ footer h3{
         margin-left: 7%;
     }
     .fort img{
-        height: 300px;
+        height: 150px;
     }
     .fort h2{
-        font-size: 200%;
+        font-size: 130%;
         padding-top: 7%;
         padding-bottom: 5%;
     }
@@ -1560,10 +1562,10 @@ footer h3{
         margin-left: 7%;
     }
     .iles img{
-        height: 300px;
+        height: 150px;
     }
     .iles h2{
-        font-size: 200%;
+        font-size: 130%;
         padding-top: 7%;
         padding-bottom: 5%;
     }
@@ -1575,10 +1577,10 @@ footer h3{
         margin-left: 7%;
     }
     .calanques img{
-        height: 300px;
+        height: 150px;
     }
     .calanques h2{
-        font-size: 200%;
+        font-size: 130%;
         padding-top: 7%;
         padding-bottom: 5%;
     }
@@ -1590,10 +1592,10 @@ footer h3{
         margin-left: 7%;
     }
     .eglise img{
-        height: 300px;
+        height: 150px;
     }
     .eglise h2{
-        font-size: 200%;
+        font-size: 130%;
         padding-top: 7%;
         padding-bottom: 5%;
     }
@@ -1602,10 +1604,10 @@ footer h3{
         margin-left: 7%;
     }
     .longchamp img{
-        height: 300px;
+        height: 150px;
     }
     .longchamp h2{
-        font-size: 200%;
+        font-size: 130%;
         padding-top: 7%;
         padding-bottom: 5%;
     }
@@ -1616,10 +1618,10 @@ footer h3{
         width: 83%;
     }
     footer h2{
-        font-size: 200%;
+        font-size: 140%;
     }
     footer h3{
-        font-size: 160%;
+        font-size: 120%;
     }
     .partie_1{
         padding-left: 8%;
